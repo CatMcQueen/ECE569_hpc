@@ -1,0 +1,107 @@
+[
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/ImageColorToGrayscale_DatasetGenerator.dir/hw2/ImageColorToGrayscale/dataset_generator.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/hw2/ImageColorToGrayscale/dataset_generator.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/hw2/ImageColorToGrayscale/dataset_generator.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/VectorAdd_DatasetGenerator.dir/hw2/VectorAdd/dataset_generator.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/hw2/VectorAdd/dataset_generator.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/hw2/VectorAdd/dataset_generator.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/wbArg.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/wbArg.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/wbArg.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/wbCUDA.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/wbCUDA.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/wbCUDA.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/wbDataset.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/wbDataset.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/wbDataset.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/wbDirectory.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/wbDirectory.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/wbDirectory.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/wbExit.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/wbExit.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/wbExit.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/wbExport.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/wbExport.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/wbExport.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/wbFile.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/wbFile.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/wbFile.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/wbImage.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/wbImage.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/wbImage.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/wbImport.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/wbImport.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/wbImport.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/wbInit.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/wbInit.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/wbInit.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/wbLogger.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/wbLogger.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/wbLogger.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/wbMPI.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/wbMPI.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/wbMPI.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/wbPPM.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/wbPPM.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/wbPPM.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/wbPath.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/wbPath.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/wbPath.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/wbSolution.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/wbSolution.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/wbSolution.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/wbSparse.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/wbSparse.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/wbSparse.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/wbTimer.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/wbTimer.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/wbTimer.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/wbUtils.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/wbUtils.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/wbUtils.cpp"
+},
+{
+  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/wb.dir/libwb/vendor/json11.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/libwb/vendor/json11.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/libwb/vendor/json11.cpp"
+}
+]
