@@ -30,7 +30,7 @@ __global__ void matrixMultiply(float *A, float *B, float *C, int numARows,
   }
 
   // then the common width we're multiplying across is that common axis 
-  int width = numBrows;
+  int width = numBRows;
 
   // if you're inside the matrix
   if ((row < width) && (col < width)) 
@@ -113,7 +113,13 @@ int main(int argc, char **argv) {
 
   wbTime_start(Compute, "Performing CUDA computation");
   //@@ Launch the GPU Kernel here
+  matrixMultiply<<<GridDim, BlockDim>>>(deviceA, deviceB, deviceC, 
+                                numARows, numAColumns, 
+                                numBRows, numBColumns,
+                                numCRows, numCColumns);
 
+
+  
   cudaDeviceSynchronize();
   wbTime_stop(Compute, "Performing CUDA computation");
 
