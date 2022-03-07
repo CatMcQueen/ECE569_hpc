@@ -1,0 +1,8 @@
+Total execution time (ms) 1.655008 for block size 4 x 4 matrix size of 64 x 64 and 64 x 64
+{"data": {"correctq": true, "message": "The solution is correct"}, "type": "solution"}
+Total execution time (ms) 0.020864 for block size 8 x 8 matrix size of 64 x 64 and 64 x 64
+{"data": {"correctq": true, "message": "The solution is correct"}, "type": "solution"}
+Total execution time (ms) 0.019840 for block size 16 x 16 matrix size of 64 x 64 and 64 x 64
+{"data": {"correctq": true, "message": "The solution is correct"}, "type": "solution"}
+Total execution time (ms) 0.024512 for block size 32 x 32 matrix size of 64 x 64 and 64 x 64
+{"data": {"correctq": true, "message": "The solution is correct"}, "type": "solution"}
