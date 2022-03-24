@@ -156,5 +156,4 @@ if (BUILD_LIBWB_LIBRARY)
 endif (BUILD_LIBWB_LIBRARY)
 
 
-include(hw4/sources.cmake)
-
+include(hw3/sources.cmake)
