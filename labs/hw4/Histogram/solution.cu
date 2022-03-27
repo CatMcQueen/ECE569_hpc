@@ -4,8 +4,7 @@
 // tests for functional verification
 
 #include <cuda_runtime.h>
-#include<stdlib.h>
-#include <wb.h>
+
 #include "kernel.cu"
 #define NUM_BINS 4096
 
@@ -75,9 +74,15 @@ else if (kernel_version==2) {
   // Launch histogram kernel on the bins
   {
     dim3 blockDim(512), gridDim(30);
-    histogram_shared_accumulate_kernel<<<gridDim, blockDim,
+    //histogram_shared_accumulate_kernel<<<gridDim, blockDim,
+    //                   num_bins * sizeof(unsigned int)>>>(
+    //    input, bins, num_elements, num_bins);
+   histogram_shared_optimized <<<gridDim, blockDim,
                        num_bins * sizeof(unsigned int)>>>(
         input, bins, num_elements, num_bins);
+ 
+
+
     CUDA_CHECK(cudaGetLastError());
     CUDA_CHECK(cudaDeviceSynchronize());
   }

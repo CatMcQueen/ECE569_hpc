@@ -10,14 +10,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.17.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeSystem.cmake"
-  "CMakeFiles/BasicMatrixMultiplication_Solution.dir/hw3/BasicMatrixMultiplication/BasicMatrixMultiplication_Solution_generated_solution.cu.o.cmake.pre-gen"
-  "CMakeFiles/BasicMatrixMultiplication_Solution.dir/hw3/BasicMatrixMultiplication/BasicMatrixMultiplication_Solution_generated_solution.cu.o.depend"
-  "CMakeFiles/TiledMatrixMultiplication_Solution.dir/hw3/TiledMatrixMultiplication/TiledMatrixMultiplication_Solution_generated_solution.cu.o.cmake.pre-gen"
-  "CMakeFiles/TiledMatrixMultiplication_Solution.dir/hw3/TiledMatrixMultiplication/TiledMatrixMultiplication_Solution_generated_solution.cu.o.depend"
+  "CMakeFiles/Histogram_Solution.dir/hw4/Histogram/Histogram_Solution_generated_solution.cu.o.cmake.pre-gen"
+  "CMakeFiles/Histogram_Solution.dir/hw4/Histogram/Histogram_Solution_generated_solution.cu.o.depend"
   "/home/u9/catmcqueen/ece569_hpc/labs/CMakeLists.txt"
-  "/home/u9/catmcqueen/ece569_hpc/labs/hw3/BasicMatrixMultiplication/sources.cmake"
-  "/home/u9/catmcqueen/ece569_hpc/labs/hw3/TiledMatrixMultiplication/sources.cmake"
-  "/home/u9/catmcqueen/ece569_hpc/labs/hw3/sources.cmake"
+  "/home/u9/catmcqueen/ece569_hpc/labs/hw4/Histogram/sources.cmake"
+  "/home/u9/catmcqueen/ece569_hpc/labs/hw4/sources.cmake"
   "/home/u9/catmcqueen/ece569_hpc/labs/libwb/sources.cmake"
   "/usr/share/cmake3/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake3/Modules/CMakeCXXInformation.cmake"
@@ -57,18 +54,14 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/BasicMatrixMultiplication_Solution.dir/hw3/BasicMatrixMultiplication/BasicMatrixMultiplication_Solution_generated_solution.cu.o.cmake.pre-gen"
-  "CMakeFiles/TiledMatrixMultiplication_Solution.dir/hw3/TiledMatrixMultiplication/TiledMatrixMultiplication_Solution_generated_solution.cu.o.cmake.pre-gen"
-  "CMakeFiles/BasicMatrixMultiplication_Solution.dir/hw3/BasicMatrixMultiplication/BasicMatrixMultiplication_Solution_generated_solution.cu.o.Release.cmake"
-  "CMakeFiles/TiledMatrixMultiplication_Solution.dir/hw3/TiledMatrixMultiplication/TiledMatrixMultiplication_Solution_generated_solution.cu.o.Release.cmake"
+  "CMakeFiles/Histogram_Solution.dir/hw4/Histogram/Histogram_Solution_generated_solution.cu.o.cmake.pre-gen"
+  "CMakeFiles/Histogram_Solution.dir/hw4/Histogram/Histogram_Solution_generated_solution.cu.o.Release.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/TiledMatrixMultiplication_DatasetGenerator.dir/DependInfo.cmake"
-  "CMakeFiles/TiledMatrixMultiplication_Solution.dir/DependInfo.cmake"
-  "CMakeFiles/BasicMatrixMultiplication_Solution.dir/DependInfo.cmake"
-  "CMakeFiles/BasicMatrixMultiplication_DatasetGenerator.dir/DependInfo.cmake"
+  "CMakeFiles/Histogram_DatasetGenerator.dir/DependInfo.cmake"
+  "CMakeFiles/Histogram_Solution.dir/DependInfo.cmake"
   "CMakeFiles/wb.dir/DependInfo.cmake"
   )

@@ -1,13 +1,8 @@
 [
 {
   "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
-  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/TiledMatrixMultiplication_DatasetGenerator.dir/hw3/TiledMatrixMultiplication/dataset_generator.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/hw3/TiledMatrixMultiplication/dataset_generator.cpp",
-  "file": "/home/u9/catmcqueen/ece569_hpc/labs/hw3/TiledMatrixMultiplication/dataset_generator.cpp"
-},
-{
-  "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",
-  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/BasicMatrixMultiplication_DatasetGenerator.dir/hw3/BasicMatrixMultiplication/dataset_generator.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/hw3/BasicMatrixMultiplication/dataset_generator.cpp",
-  "file": "/home/u9/catmcqueen/ece569_hpc/labs/hw3/BasicMatrixMultiplication/dataset_generator.cpp"
+  "command": "/bin/c++   -I/home/u9/catmcqueen/ece569_hpc/labs/libwb -I/opt/ohpc/pub/apps/cuda/11.0/include   -Wall -Wno-unused-function -Wno-unused-parameter -Wextra -std=c++11 -Wno-dollar-in-identifier-extension -O2 -DNDEBUG   -std=gnu++11 -o CMakeFiles/Histogram_DatasetGenerator.dir/hw4/Histogram/dataset_generator.cpp.o -c /home/u9/catmcqueen/ece569_hpc/labs/hw4/Histogram/dataset_generator.cpp",
+  "file": "/home/u9/catmcqueen/ece569_hpc/labs/hw4/Histogram/dataset_generator.cpp"
 },
 {
   "directory": "/home/u9/catmcqueen/ece569_hpc/build_dir",

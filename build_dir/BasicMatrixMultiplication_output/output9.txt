@@ -1,8 +1,8 @@
-Total execution time (ms) 0.008800 for block size 4 x 4 matrix size of 417 x 210 and 210 x 519
+Total execution time (ms) 0.009216 for block size 4 x 4 matrix size of 417 x 210 and 210 x 519
 {"data": {"correctq": false, "message": "The solution did not match the expected results at column 0 and row 0. Expecting 162.4 but got 0."}, "type": "solution"}
-Total execution time (ms) 0.012608 for block size 8 x 8 matrix size of 417 x 210 and 210 x 519
+Total execution time (ms) 0.020608 for block size 8 x 8 matrix size of 417 x 210 and 210 x 519
 {"data": {"correctq": false, "message": "The solution did not match the expected results at column 0 and row 0. Expecting 162.4 but got 0."}, "type": "solution"}
-Total execution time (ms) 2.564032 for block size 16 x 16 matrix size of 417 x 210 and 210 x 519
+Total execution time (ms) 2.639744 for block size 16 x 16 matrix size of 417 x 210 and 210 x 519
 {"data": {"correctq": true, "message": "The solution is correct"}, "type": "solution"}
-Total execution time (ms) 0.264064 for block size 32 x 32 matrix size of 417 x 210 and 210 x 519
+Total execution time (ms) 0.271552 for block size 32 x 32 matrix size of 417 x 210 and 210 x 519
 {"data": {"correctq": true, "message": "The solution is correct"}, "type": "solution"}

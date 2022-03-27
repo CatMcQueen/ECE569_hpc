@@ -67,6 +67,7 @@ PATHS[5]=$hw_path/TiledMatrixMultiplication/Dataset/5
 PATHS[6]=$hw_path/TiledMatrixMultiplication/Dataset/6
 PATHS[7]=$hw_path/TiledMatrixMultiplication/Dataset/7
 PATHS[8]=$hw_path/TiledMatrixMultiplication/Dataset/8
+PATHS[9]=$hw_path/TiledMatrixMultiplication/Dataset/9
 
 count=0
 for j in ${PATHS[@]}
