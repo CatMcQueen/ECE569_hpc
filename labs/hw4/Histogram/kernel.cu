@@ -94,7 +94,7 @@ __global__ void histogram_shared_optimized(unsigned int *input, unsigned int *bi
 	int bd = blockDim.x;
 	const int R = 1;
 	// the +1 is for the padding
-	__shared__ int histo_private[(MAX_BINS+1)*R];
+	__shared__ int histo_private[(MAX_BINS)*R];
 
 	__syncthreads();
 	// warp indexes
@@ -103,7 +103,7 @@ __global__ void histogram_shared_optimized(unsigned int *input, unsigned int *bi
 	const int warps_block = bd / WARPSIZE;
 
 	// offset to per-block sub histogram
-	const int off_rep = (MAX_BINS + 1) * (tx % R);
+	const int off_rep = (MAX_BINS) * (tx % R);
 
 	// set const for interleaved read access
 	// to reduce the number of overlapping warps
@@ -114,7 +114,7 @@ __global__ void histogram_shared_optimized(unsigned int *input, unsigned int *bi
 	const int step= WARPSIZE * gridDim.x; 
 
 	// Initialize
-	for (int pos = tx; pos < (MAX_BINS+1) *R; pos += bd) {
+	for (int pos = tx; pos < (MAX_BINS) *R; pos += bd) {
 		histo_private[pos] = 0;
 	}
 
@@ -136,7 +136,7 @@ __global__ void histogram_shared_optimized(unsigned int *input, unsigned int *bi
 	//merge per_block sub histograms and write to global memory
 	for (int pos = tx; pos < MAX_BINS; pos += bd) {
 		int sum = 0;
-		for(int base = 0; base < (MAX_BINS+1) *R; base += (MAX_BINS + 1)){
+		for(int base = 0; base < (MAX_BINS) *R; base += (MAX_BINS )){
 			sum += histo_private[base + pos];
 		}		
 		atomicAdd(bins+pos, sum);
