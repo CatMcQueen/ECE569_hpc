@@ -107,8 +107,10 @@ __global__ void histogram_shared_optimized(unsigned int *input, unsigned int *bi
 
 	// set const for interleaved read access
 	// to reduce the number of overlapping warps
-	const int begin = (num_elements / warps_block) * warpid + WARPSIZE * bx + lane;
-	const int end = (num_elements / warps_block) * (warpid + 1);
+	// account for the case where warp doesnt divide into number of elements
+	const int elem_per_warp = (num_elements - 1)/warps_block + 1;
+	const int begin = elem_per_warp * warpid + WARPSIZE * bx + lane;
+	const int end = elem_per_warp * (warpid + 1);
 	const int step= WARPSIZE * gridDim.x; 
 
 	// Initialize
@@ -123,8 +125,9 @@ __global__ void histogram_shared_optimized(unsigned int *input, unsigned int *bi
 
 	// Main loop
 	for (int i = begin; i < end; i += step) {
-		int d = input[i]; // read the global mem
-		atomicAdd(&histo_private[off_rep + d], 1); // vote in the shared memory
+		int pos = i < num_elements ? input[i] : 0;
+		int inc = i < num_elements ? 1 : 0; // read the global mem
+		atomicAdd(&histo_private[off_rep + d], inc); // vote in the shared memory
 	}
 
 	// wait for threads to end
