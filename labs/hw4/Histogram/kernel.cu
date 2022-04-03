@@ -127,7 +127,7 @@ __global__ void histogram_shared_optimized(unsigned int *input, unsigned int *bi
 	for (int i = begin; i < end; i += step) {
 		int pos = i < num_elements ? input[i] : 0;
 		int inc = i < num_elements ? 1 : 0; // read the global mem
-		atomicAdd(&histo_private[off_rep + pos], inc); // vote in the shared memory
+		atomicAdd(&histo_private[off_rep + d], inc); // vote in the shared memory
 	}
 
 	// wait for threads to end
