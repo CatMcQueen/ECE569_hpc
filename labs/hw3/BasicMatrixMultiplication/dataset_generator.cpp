@@ -1,3 +1,4 @@
+
 #include "wb.h"
 
 static char *base_dir;
@@ -118,20 +119,16 @@ static void create_dataset(int datasetNum, int numARows, int numACols,
 int main() {
   base_dir = wbPath_join(wbDirectory_current(), "MatrixMultiplication",
                          "Dataset");
-  //create_dataset(0, 16, 16, 16);
-  //create_dataset(1, 64, 64, 64);
-  //create_dataset(2, 64, 128, 64);
-  //create_dataset(3, 112, 48, 16);
-  //create_dataset(4, 84, 84, 84);
-  //create_dataset(5, 80, 99, 128);
-  //create_dataset(6, 128, 128, 128);
-  //create_dataset(7, 100, 100, 100);
-  //create_dataset(8, 134, 130, 150);
-  //create_dataset(9, 417, 210, 519);
+  create_dataset(0, 16, 16, 16);
+  create_dataset(1, 64, 64, 64);
+  create_dataset(2, 64, 128, 64);
+  create_dataset(3, 112, 48, 16);
+  create_dataset(4, 84, 84, 84);
+  create_dataset(5, 80, 99, 128);
+  create_dataset(6, 128, 128, 128);
+  create_dataset(7, 100, 100, 100);
+  create_dataset(8, 134, 130, 150);
+  create_dataset(9, 417, 210, 519);
 
-   create_dataset(11, 128, 128, 128);
-   create_dataset(12, 100, 100, 100);
-   create_dataset(13, 134, 130, 150);
-   create_dataset(14, 417, 210, 519);
   return 0;
 }
