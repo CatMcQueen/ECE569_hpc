@@ -64,12 +64,6 @@ int main(int argc, char **argv) {
   int numCColumns; // number of columns in the matrix C (you have to set
                    // this)
 
-  // make sure we can actually take the matrix multiply
-  if (numAColumns != numBRows) {
-     printf("Your matrix sizes do not work for a matrix multiply");
-     return;
-  }
-
   FILE *f;
   f = fopen("basicMatrixMultiplication.log", "a+"); // Create a log file for printing
   fprintf(f, "Beginning execution ...... \n");
@@ -87,7 +81,15 @@ int main(int argc, char **argv) {
   numCColumns = numBColumns;   // set to correct value
   //@@ Allocate the hostC matrix
  
-  fprintf(f, "Made it past a and b\n");
+  
+  // make sure we can actually take the matrix multiply
+  if (numAColumns != numBRows) {
+     printf("Your matrix sizes do not work for a matrix multiply");
+     return 0;
+  }
+
+
+
   // allocate C memory
   hostC = (float *)malloc(numCRows*numCColumns*sizeof(float));
  
@@ -119,14 +121,9 @@ int main(int argc, char **argv) {
   // set block size to 16,16 and determine the grid dimensions
   // use dim3 structure for setting block and grid dimensions
   
-  dim3 BlockDim(16,16,1);
-  dim3 GridDim;
-
-  // rows = y, column = x
-  // do it in terms of C (outside edges of matrix multiply)
-  // then add one to round up? maybe add .5?
-  GridDim.x = (numCColumns - 1) / 16 + 1;
-  GridDim.y = (numCRows - 1) / 16 + 1;
+  int blocksize = 16;
+  dim3 BlockDim(blocksize,blocksize,1);
+  dim3 GridDim((numCColumns - 1)/blocksize + 1, (numCRows - 1)/blocksize + 1, 1);
 
   wbTime_start(Compute, "Performing CUDA computation");
   //@@ Launch the GPU Kernel here
